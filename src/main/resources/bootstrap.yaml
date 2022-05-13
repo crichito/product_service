@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: product-service
+  cloud:
+    config:
+      enabled: true
+      uri: http://localhost:8081
+      username: root
+      password: pr0y3ct0
