@@ -9,7 +9,7 @@ import lombok.Setter;
 @Setter
 @AllArgsConstructor
 public class ConfirmTransaccionCoinRequest {
-    private String idVirualCoint;
+    private String idVirtualCoint;
     private String operation;
     private boolean confirmation;
 }

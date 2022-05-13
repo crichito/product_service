@@ -10,7 +10,7 @@ import java.util.Date;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-@Document(collection = "virtual_coin")
+@Document(collection = "exchange")
 public class Exchange {
     private Double value;
     private Date effectiveDate;

@@ -10,8 +10,6 @@ import java.util.Date;
 @Getter
 @AllArgsConstructor
 public class CoinClient {
-
-    private String id;
     private String document;
     private String phone;
     private String email;
